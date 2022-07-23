@@ -9,9 +9,9 @@ Return true if the length of the map is greater than zero, otherwise false.
 bool func(Map dct) {
   bool x = true;
   if(dct.length > 0){
-    x = true;
-  }else{
     x = false;
+  }else{
+    x = true;
   }
   return x;
 }
