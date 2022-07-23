@@ -6,11 +6,11 @@ Then return the map.
 
 */
 
-Map func(Map<String,String> dct) {
-
+Map func() {
+  Map dct = {"Rustambek":'Safarov'}; 
   return dct;
 }
 
 void main() {
-  print(func({'Rustambek':'Safarov'}));
+  print(func());
 }
